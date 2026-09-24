@@ -2,136 +2,778 @@
 <html lang="pl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Fairytale — Every website has a story</title>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="SCARFACE BARBERS — profesjonalny barber shop w Lublinie."
+    >
+
+    <meta
+        name="theme-color"
+        content="#040807"
+    >
+
+    <title>SCARFACE BARBERS — Lublin</title>
+
+    <link
+        rel="icon"
+        href="favicon.svg"
+        type="image/svg+xml"
+    >
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet"
+    >
 
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <!-- NAWIGACJA -->
+    <div class="scroll-progress"></div>
+
+    <div class="cursor-light"></div>
+
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
 
     <header class="navbar">
 
         <a href="#home" class="logo">
-            FAIRYTALE
+            SCARFACE
         </a>
 
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
+
+        <nav class="desktop-nav">
+
+            <a href="#about">
+                O nas
+            </a>
+
+            <a href="#services">
+                Usługi
+            </a>
+
+            <a href="#gallery">
+                Galeria
+            </a>
+
+            <a href="#barbers">
+                Barberzy
+            </a>
+
+            <a href="#reviews">
+                Opinie
+            </a>
+
+            <a href="#contact">
+                Kontakt
+            </a>
+
         </nav>
+
+
+        <button
+            class="mobile-menu-btn"
+            type="button"
+            aria-label="Otwórz menu"
+            aria-expanded="false"
+        >
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </button>
 
     </header>
 
 
-    <!-- HERO -->
 
     <main>
 
-        <section id="home" class="hero">
 
-            <div class="stars"></div>
+        <!-- =========================
+             HERO
+        ========================== -->
 
-            <div class="moon"></div>
+        <section
+            class="hero"
+            id="home"
+        >
 
             <div class="hero-content">
 
-                <p class="eyebrow">
-                    WELCOME TO MY WORLD
+                <div class="hero-title">
+
+                    <span class="scarface-title">
+                        SCARFACE
+                    </span>
+
+
+                    <div class="barbers-line">
+
+                        <span class="barbers-title">
+                            BARBERS
+                        </span>
+
+                        <span class="founder-title">
+                            by Ernest Piech
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <p class="hero-subtitle">
+                    Klasyczne rzemiosło, nowoczesny styl
+                    i dbałość o każdy szczegół.
+                    Miejsce stworzone dla facetów,
+                    którzy wiedzą, czego chcą.
                 </p>
 
-                <h1>
-                    FAIRYTALE
-                </h1>
 
-                <p class="subtitle">
-                    Every website has a story.
+                <div class="hero-buttons">
+
+                    <a
+                        href="#services"
+                        class="btn btn-primary"
+                    >
+                        Zobacz usługi
+                    </a>
+
+
+                    <a
+                        href="#contact"
+                        class="btn btn-secondary"
+                    >
+                        Kontakt
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-scroll">
+                Przewiń
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section
+            class="about"
+            id="about"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        01 — O nas
+                    </span>
+
+                    <h2>
+                        WIĘCEJ NIŻ<br>
+                        STRZYŻENIE.
+                    </h2>
+
+                    <p>
+                        Barbering to nie tylko fryzura.
+                        To atmosfera, precyzja i chwila,
+                        w której możesz po prostu usiąść
+                        i odpocząć.
+                    </p>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div class="about-text">
+
+                        <p>
+                            SCARFACE BARBERS to miejsce,
+                            w którym klasyczne podejście
+                            do barberingu spotyka się
+                            ze współczesnym stylem.
+                        </p>
+
+                        <p>
+                            Każde strzyżenie traktujemy
+                            indywidualnie — od pierwszej
+                            konsultacji aż po ostatnie
+                            poprawki.
+                        </p>
+
+                        <div class="about-highlight">
+                            Precyzja. Styl. Charakter.
+                        </div>
+
+                    </div>
+
+
+                    <div class="about-visual">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             SERVICES
+        ========================== -->
+
+        <section
+            class="services"
+            id="services"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        02 — Usługi
+                    </span>
+
+                    <h2>
+                        USŁUGI
+                    </h2>
+
+                    <p>
+                        Wybierz usługę dopasowaną
+                        do swojego stylu.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+
+                    <article class="service-card reveal">
+
+                        <span class="service-number">
+                            01
+                        </span>
+
+                        <span class="service-price">
+                            SPRAWDŹ CENĘ
+                        </span>
+
+                        <h3>
+                            STRZYŻENIE
+                        </h3>
+
+                        <p>
+                            Klasyczne lub nowoczesne
+                            strzyżenie dopasowane
+                            do kształtu twarzy
+                            i Twojego stylu.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card reveal">
+
+                        <span class="service-number">
+                            02
+                        </span>
+
+                        <span class="service-price">
+                            SPRAWDŹ CENĘ
+                        </span>
+
+                        <h3>
+                            BRODA
+                        </h3>
+
+                        <p>
+                            Modelowanie, konturowanie
+                            i pielęgnacja brody
+                            z dbałością o każdy detal.
+                        </p>
+
+                    </article>
+
+
+                    <article class="service-card reveal">
+
+                        <span class="service-number">
+                            03
+                        </span>
+
+                        <span class="service-price">
+                            SPRAWDŹ CENĘ
+                        </span>
+
+                        <h3>
+                            COMBO
+                        </h3>
+
+                        <p>
+                            Kompleksowa usługa
+                            obejmująca włosy
+                            oraz brodę.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             GALLERY
+        ========================== -->
+
+        <section
+            class="gallery"
+            id="gallery"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        03 — Galeria
+                    </span>
+
+                    <h2>
+                        NASZ KLIMAT
+                    </h2>
+
+                    <p>
+                        Miejsce, styl i detale.
+                        Tutaj później wstawimy
+                        prawdziwe zdjęcia salonu.
+                    </p>
+
+                </div>
+
+
+                <div class="gallery-grid">
+
+
+                    <div class="gallery-item reveal">
+
+                        <span class="gallery-placeholder">
+                            SCARFACE
+                        </span>
+
+                    </div>
+
+
+                    <div class="gallery-item reveal">
+
+                        <span class="gallery-placeholder">
+                            BARBERS
+                        </span>
+
+                    </div>
+
+
+                    <div class="gallery-item reveal">
+
+                        <span class="gallery-placeholder">
+                            STYLE
+                        </span>
+
+                    </div>
+
+
+                    <div class="gallery-item reveal">
+
+                        <span class="gallery-placeholder">
+                            CRAFT
+                        </span>
+
+                    </div>
+
+
+                    <div class="gallery-item reveal">
+
+                        <span class="gallery-placeholder">
+                            DETAILS
+                        </span>
+
+                    </div>
+
+
+                    <div class="gallery-item reveal">
+
+                        <span class="gallery-placeholder">
+                            LUBLIN
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             BARBERS
+        ========================== -->
+
+        <section
+            class="barbers"
+            id="barbers"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        04 — Zespół
+                    </span>
+
+                    <h2>
+                        BARBERZY
+                    </h2>
+
+                    <p>
+                        Ludzie stojący za fotelem,
+                        maszynką i całym doświadczeniem.
+                    </p>
+
+                </div>
+
+
+                <div class="barbers-grid">
+
+
+                    <article class="barber-card reveal">
+
+                        <span class="barber-role">
+                            Founder
+                        </span>
+
+                        <h3>
+                            ERNEST PIECH
+                        </h3>
+
+                        <p>
+                            Barber & Founder
+                        </p>
+
+                    </article>
+
+
+                    <article class="barber-card reveal">
+
+                        <span class="barber-role">
+                            Barber
+                        </span>
+
+                        <h3>
+                            BARBER
+                        </h3>
+
+                        <p>
+                            Informacje wkrótce
+                        </p>
+
+                    </article>
+
+
+                    <article class="barber-card reveal">
+
+                        <span class="barber-role">
+                            Barber
+                        </span>
+
+                        <h3>
+                            BARBER
+                        </h3>
+
+                        <p>
+                            Informacje wkrótce
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             REVIEWS
+        ========================== -->
+
+        <section
+            class="reviews"
+            id="reviews"
+        >
+
+            <div class="section-container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        05 — Opinie
+                    </span>
+
+                    <h2>
+                        CO MÓWIĄ KLIENCI
+                    </h2>
+
+                    <p>
+                        Tutaj później możemy umieścić
+                        prawdziwe opinie klientów.
+                    </p>
+
+                </div>
+
+
+                <div class="reviews-grid">
+
+
+                    <article class="review reveal">
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            „Miejsce, do którego chce się wracać.
+                            Świetna atmosfera i dokładne
+                            strzyżenie.”
+                        </p>
+
+                        <div class="review-author">
+                            Opinia klienta
+                        </div>
+
+                    </article>
+
+
+                    <article class="review reveal">
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            „Profesjonalne podejście
+                            i bardzo dobry efekt końcowy.”
+                        </p>
+
+                        <div class="review-author">
+                            Opinia klienta
+                        </div>
+
+                    </article>
+
+
+                    <article class="review reveal">
+
+                        <div class="review-stars">
+                            ★★★★★
+                        </div>
+
+                        <p>
+                            „Świetny klimat, dobra robota
+                            i pełen profesjonalizm.”
+                        </p>
+
+                        <div class="review-author">
+                            Opinia klienta
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             BOOKING
+        ========================== -->
+
+        <section class="booking">
+
+            <div class="booking-content reveal">
+
+                <span class="section-label">
+                    REZERWACJA
+                </span>
+
+                <h2>
+                    GOTOWY NA<br>
+                    NOWY LOOK?
+                </h2>
+
+                <p>
+                    Zarezerwuj swoją wizytę
+                    i przekonaj się, jak wygląda
+                    barbering w SCARFACE.
                 </p>
 
-                <p class="description">
-                    I create modern digital experiences where
-                    design, technology and imagination come together.
-                </p>
 
-                <a href="#projects" class="hero-button">
-                    Explore my work
-                    <span>→</span>
+                <!-- Później podmienimy href
+                     na prawdziwy link Booksy -->
+
+                <a
+                    href="#contact"
+                    class="btn btn-primary"
+                >
+                    Umów wizytę
                 </a>
 
             </div>
 
-
-            <div class="scroll">
-
-                <span>
-                    SCROLL TO DISCOVER
-                </span>
-
-                <div class="scroll-line"></div>
-
-            </div>
-
         </section>
 
 
-        <!-- ABOUT -->
 
-        <section id="about" class="section about-section">
+        <!-- =========================
+             CONTACT
+        ========================== -->
 
-            <div class="about-content">
+        <section
+            class="contact"
+            id="contact"
+        >
 
-                <div class="about-heading">
+            <div class="section-container">
 
-                    <p class="section-number">
-                        01
-                    </p>
+                <div class="section-heading reveal">
+
+                    <span class="section-label">
+                        06 — Kontakt
+                    </span>
 
                     <h2>
-                        About
+                        ODWIEDŹ NAS
                     </h2>
 
-                    <p class="about-small">
-                        THE STORY BEHIND THE CODE
+                    <p>
+                        Tutaj znajdziesz wszystkie
+                        najważniejsze informacje.
                     </p>
 
                 </div>
 
 
-                <div class="about-text">
+                <div class="contact-grid">
 
-                    <p class="about-intro">
-                        I believe that a website should be
-                        more than just a collection of pages.
-                    </p>
 
-                    <p>
-                        It should have its own atmosphere,
-                        personality and story.
-                    </p>
+                    <div class="contact-info">
 
-                    <p>
-                        I create websites that combine
-                        thoughtful design with modern technology,
-                        turning simple ideas into memorable
-                        digital experiences.
-                    </p>
 
-                    <div class="about-line"></div>
+                        <div class="contact-item">
 
-                    <p class="about-signature">
-                        — Creating digital stories, one line of code at a time.
-                    </p>
+                            <span class="contact-label">
+                                Adres
+                            </span>
+
+                            <span>
+                                Lublin
+                            </span>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <span class="contact-label">
+                                Telefon
+                            </span>
+
+                            <span>
+                                Numer telefonu
+                            </span>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <span class="contact-label">
+                                Rezerwacje
+                            </span>
+
+                            <a href="#contact">
+                                Booksy
+                            </a>
+
+                        </div>
+
+
+                        <div class="contact-item">
+
+                            <span class="contact-label">
+                                Instagram
+                            </span>
+
+                            <a href="#contact">
+                                Instagram
+                            </a>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="contact-map">
+
+                        LUBLIN
+
+                    </div>
+
 
                 </div>
 
@@ -139,84 +781,32 @@
 
         </section>
 
-
-        <!-- SKILLS -->
-
-        <section id="skills" class="section">
-
-            <p class="section-number">
-                02
-            </p>
-
-            <h2>
-                Skills
-            </h2>
-
-            <p class="section-text">
-                Tools and technologies I use to bring ideas to life.
-            </p>
-
-            <div class="skills">
-
-                <div class="skill">
-                    HTML
-                </div>
-
-                <div class="skill">
-                    CSS
-                </div>
-
-                <div class="skill">
-                    JavaScript
-                </div>
-
-                <div class="skill">
-                    UI / UX
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- PROJECTS -->
-
-        <section id="projects" class="section">
-
-            <p class="section-number">
-                03
-            </p>
-
-            <h2>
-                Projects
-            </h2>
-
-            <p class="section-text">
-                A collection of digital stories and experiences.
-            </p>
-
-        </section>
-
-
-        <!-- CONTACT -->
-
-        <section id="contact" class="section">
-
-            <p class="section-number">
-                04
-            </p>
-
-            <h2>
-                Contact
-            </h2>
-
-            <p class="section-text">
-                Let's create something beautiful together.
-            </p>
-
-        </section>
 
     </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-inner">
+
+            <div class="footer-logo">
+                SCARFACE
+            </div>
+
+            <div class="footer-copy">
+                SCARFACE BARBERS ©
+                <span data-year></span>
+            </div>
+
+        </div>
+
+    </footer>
+
 
 
     <script src="script.js"></script>
